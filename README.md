@@ -41,8 +41,12 @@ of `config/module.config.php`, `src/Module.php`, and
 >
 > ```bash
 > $ for php in $(find . -name '*.php');do
-> > sed --in-place -e 's/ZendSkeletonModule/MyNewModule/g' $php
+> > sed --in-place -e 's/ZendSkeletonModule/My-New-Module/g' $php
 > > done
+> ```
+> You can rename also the view folder, is require put - on spaces:
+> ```bash
+> mv view/zend-skeleton-module/ resume.pdf
 > ```
 
 Next, we need to setup autoloading in your application. Open the `composer.json`
