@@ -1,4 +1,4 @@
-# Zend Framework 3 Skeleton Module
+# Zend Framework 3 Skeleton Module Uncoupled
 
 This is a sample skeleton module for use with
 [zend-mvc](https://docs.zendframework.com/zend-mvc) applications.
